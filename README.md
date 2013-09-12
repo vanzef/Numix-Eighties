@@ -1,31 +1,19 @@
-Numix is a modern flat theme with a combination of light and dark elements. It supports Gnome, Unity, XFCE and Openbox.
+This is the excellent Numix theme, altered to use Base16 Ocean colors (see link below). It's a clean, desaturated, bluish theme.
 
-### Manual installation
-
-Extract the zip file to the themes directory i.e. `/usr/share/themes/`
-
-To set the theme in Gnome, run the following commands in Terminal,
-
-```
-gsettings set org.gnome.desktop.interface gtk-theme "Numix"
-gsettings set org.gnome.desktop.wm.preferences theme "Numix"
-```
-
-To set the theme in Xfce, run the following commands in Terminal,
-
-```
-xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
-xfconf-query -c xfwm4 -p /general/theme -s "Numix"
-```
+As of right now, I've edited the GTK2, GTK3, and Openbox themes to use Base16 Ocean colors. The GTK3 theme contains several graphical assets which I will need to change. Then I can move on to Metacity, XFWM, etc.
 
 ### Requirements
 
-GTK+ 3.6 or above
+* GTK+ 3.6 or above
+* Murrine theme engine
 
-Murrine theme engine
+### Code, license, credits
 
-### Code and license
-
-Report bugs or contribute at [GitHub](https://github.com/shimmerproject/Numix)
+Original [Numix Theme](https://github.com/shimmerproject/Numix)
+Original [Base16 Ocean Color Scheme](http://chriskempson.github.io/base16/#ocean)
 
 License: GPL-3.0+
+
+### Screenshot
+
+![](./screenshot.png)
