@@ -1,6 +1,6 @@
 This is the excellent Numix theme, altered to use Base16 Ocean colors (see link below). It's a clean, desaturated, bluish theme.
 
-As of right now, I've edited the GTK2, GTK3, and Openbox themes to use Base16 Ocean colors. The GTK3 theme contains several graphical assets which I will need to change. Then I can move on to Metacity, XFWM, etc.
+As of right now, I've edited the GTK2, GTK3, XFWM4, and Openbox themes to use Base16 Ocean colors. The GTK3 theme contains several graphical assets which I will need to change. Then I can move on to Metacity, etc.
 
 ### Requirements
 
