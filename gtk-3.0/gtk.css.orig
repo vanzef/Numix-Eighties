@@ -1,13 +1,13 @@
 <<<<<<< HEAD
 /* Default color scheme */
-@define-color bg_color #dfe1e8;
-@define-color fg_color #4f5b66;
-@define-color base_color #eff1f5;
-@define-color text_color #343d46;
-@define-color selected_bg_color #8fa1b3;
-@define-color selected_fg_color #eff1f5;
-@define-color tooltip_bg_color #2b303b;
-@define-color tooltip_fg_color #eff1f5;
+@define-color bg_color #e8e6df;
+@define-color fg_color #515151;
+@define-color base_color #f2f0ec;
+@define-color text_color #393939;
+@define-color selected_bg_color #6699cc;
+@define-color selected_fg_color #f2f0ec;
+@define-color tooltip_bg_color #2d2d2d;
+@define-color tooltip_fg_color #f2f0ec;
 =======
 /* default color scheme */
 @define-color bg_color #dedede;
@@ -39,33 +39,33 @@
 @define-color dark_shadow #000;
 
 /* misc colors used by gtk+ */
-@define-color info_fg_color #96b5b4;
-@define-color info_bg_color #65737e;
-@define-color warning_fg_color #d08770;
-@define-color warning_bg_color #65737e;
-@define-color question_fg_color #ebcb8b;
-@define-color question_bg_color #65737e;
-@define-color error_fg_color #bf616a;
+@define-color info_fg_color #66cccc;
+@define-color info_bg_color #747369;
+@define-color warning_fg_color #f99157;
+@define-color warning_bg_color #747369;
+@define-color question_fg_color #ffcc66;
+@define-color question_bg_color #747369;
+@define-color error_fg_color #f2777a;
 @define-color error_bg_color #65737a;
-@define-color link_color #8fa1b3;
-@define-color success_color #a3be8c;
-@define-color warning_color #d08770;
-@define-color error_color #bf616a;
+@define-color link_color #6699cc;
+@define-color success_color #99cc99;
+@define-color warning_color #f99157;
+@define-color error_color #f2777a;
 
 /* widget colors */
 <<<<<<< HEAD
-@define-color menubar_bg_color #2b303b;
-@define-color menubar_fg_color #dfe1e8;
-@define-color toolbar_bg_color #dfe1e8;
-@define-color toolbar_fg_color #4f5b66;
-@define-color menu_bg_color #2b303b;
-@define-color menu_fg_color #dfe1e8;
-@define-color panel_bg_color #2b303b;
-@define-color panel_fg_color #dfe1e8;
+@define-color menubar_bg_color #2d2d2d;
+@define-color menubar_fg_color #e8e6df;
+@define-color toolbar_bg_color #e8e6df;
+@define-color toolbar_fg_color #515151;
+@define-color menu_bg_color #2d2d2d;
+@define-color menu_fg_color #e8e6df;
+@define-color panel_bg_color #2d2d2d;
+@define-color panel_fg_color #e8e6df;
 
 /* osd */
-@define-color osd_base #2b303b;
-@define-color osd_fg #dfe1e8;
+@define-color osd_base #2d2d2d;
+@define-color osd_fg #e8e6df;
 =======
 @define-color titlebar_bg_color @dark_bg_color;
 @define-color titlebar_fg_color @dark_fg_color;
@@ -90,17 +90,17 @@
 
 /* window manager colors */
 <<<<<<< HEAD
-@define-color wm_bg #2b303b;
-@define-color wm_title_focused #dfe1e8;
-@define-color wm_title_unfocused #65737e;
-@define-color wm_border_focused #4f5b66;
-@define-color wm_border_unfocused #343d46;
-@define-color wm_icons_focused #dfe1e8;
-@define-color wm_icons_focused_prelight #8fa1b3;
-@define-color wm_icons_focused_pressed #96b5b4;
-@define-color wm_icons_unfocused #65737e;
-@define-color wm_icons_unfocused_prelight #8fa1b3;
-@define-color wm_icons_unfocused_pressed #96b5b4;
+@define-color wm_bg #2d2d2d;
+@define-color wm_title_focused #e8e6df;
+@define-color wm_title_unfocused #747369;
+@define-color wm_border_focused #515151;
+@define-color wm_border_unfocused #393939;
+@define-color wm_icons_focused #e8e6df;
+@define-color wm_icons_focused_prelight #6699cc;
+@define-color wm_icons_focused_pressed #66cccc;
+@define-color wm_icons_unfocused #747369;
+@define-color wm_icons_unfocused_prelight #6699cc;
+@define-color wm_icons_unfocused_pressed #66cccc;
 =======
 @define-color wm_bg @titlebar_bg_color;
 @define-color wm_border_focused mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.21);
